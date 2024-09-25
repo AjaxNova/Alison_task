@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
               bottomNavigationBar: BottomNavigationBar(
                 type: BottomNavigationBarType.fixed,
                 backgroundColor: Colors.white,
-                elevation: 8.0,
+                elevation: 5.0,
                 currentIndex: valueHome.selectedIndex,
                 selectedItemColor: Colors.black,
                 unselectedItemColor: Colors.grey,
@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                     label: 'Swan',
                   ),
                   BottomNavigationBarItem(
-                    icon: Icon(Icons.star),
+                    icon: Icon(Icons.settings),
                     label: 'Brands',
                   ),
                   BottomNavigationBarItem(
